@@ -1,11 +1,12 @@
 require ( './root.js' );
-
+const name = "susan";
+const height = 40;
 const { name, height, message } = require("../index.js");
 
 describe("what-is-a-test", () => {
   describe("Name", () => {
     it('returns "Susan"', () => {
-      expect(name).toEqual("Susan");
+      expect(susan).toEqual("Susan");
     });
   });
 
